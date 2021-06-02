@@ -91,5 +91,14 @@
             Copyright &copy;2021 myonlinemeals.com | All Rights reserved.
         </div>
     </footer>
+    <script>
+        document.querySelector(".btn").addEventListener("click", function(){
+            alert("Sorry we can't deliver to your location due to COVID-19 Pandemic")
+            this.innerHTML = "Not Deliverable 🚫"
+            this.style.backgroundColor = "white"
+            this.style.color = "red"
+            this.style.cursor = "default"
+    })
+    </script>
 </body>
 </html>
